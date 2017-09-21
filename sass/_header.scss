@@ -1,0 +1,77 @@
+header{
+  
+  width: 100%;
+  z-index: 1;
+
+ 
+}
+
+header h1   {
+  padding: 2% ;
+  letter-spacing: 6px;
+  color: #fff;
+  font-weight: 500;
+
+
+font-family: 'Space Mono', monospace;
+
+
+  font-size: 1vw;
+  margin-bottom: 0;
+  background:#1A1A1A;
+  position:fixed;
+  width: 1%;
+  padding: 1% ;
+  border:none;
+  font-size: 3vw;  
+  line-height: 2;
+  background-color: transparent;
+  z-index: 2;
+
+
+}
+
+header h1 a{
+  color: #fff;
+  padding:1%;
+  background:#1A1A1A;
+
+}
+
+header h1 a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+ 
+
+   header h1  {
+     
+    font-size: 2.2vw;
+}
+      
+ }    
+
+@media (max-width: 549px) {
+ 
+
+   header h1  {
+     
+    font-size: 5.2vw;
+} 
+    
+   
+   
+
+} 
+
+.billboard {
+   
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;   
+}
+

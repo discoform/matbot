@@ -1,0 +1,23 @@
+html,
+body {
+ height: 100%;
+  margin: 0;
+  cursor: default;
+  font-size: 100%;
+  line-height: 1.6875;  
+  background:#1A1A1A;
+
+
+}
+
+  body{
+    margin: 0 0; /*footer height must match here*/
+    width: 100%;
+
+  }
+
+ 
+::-webkit-scrollbar{
+    display: none;
+}
+
