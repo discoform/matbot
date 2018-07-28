@@ -45,6 +45,7 @@ Pre-planning for this project was minimal. I based the project files off of Tom 
 
 ## Color Palette
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Whimsical Animated GIFsof The Doodler -impressive</p>&mdash; matbot (@_matbot) <a href="https://twitter.com/_matbot/status/859062837548896257">May 1, 2017</a></blockquote>
+
 ![matbot colors](https://github.com/discoform/matbot/blob/master/images/color.png "matbot colors")
 
 The __matbot__ website serves almost no purpose except to provide a hub for the project extensions to various social media accounts, so an elaborate color scheme would have taken more effort than the usefulness of the page really required. The addition of the orange bar at the bottom of the page was simply to evoke a sense of closure. The color choice was practically arbitrary, based entirely on personal taste and a habit of adding an element of orange to nearly all of my student projects in school.
