@@ -3,12 +3,13 @@
 # matbot: a personal twitter bot.<br>not particularly useful, but fun... #
 
 
-![Matbot Logo](https://github.com/discoform/matbot/blob/master/images/social.png "Logo Title Text 1")
+![Matbot Card](https://github.com/discoform/matbot/blob/master/images/social.png "Matbot Card")
 
 __matbot__ was an exercise I assigned myself as a way to learn to read & edit Python code and deploy my first application using Git and a cloud based hosting platform.
 
 The bot is autonomous and tweets several times per day on subjects limited almost exclusively to web and graphic design. In some ways the bot is satire, half-heartedly marketing itself in the way that web designers tend to do; by aggregating and reposting advice and wisdom culled from other web sources who are, more than likely, doing the same.
 
+![Matbot Logo](https://github.com/discoform/matbot/blob/master/images/logo.jpg "Matbot Logo")
 
 The __matbot__ logo was designed by me to represent the overall harmless nature of the bot.
 
