@@ -9,7 +9,7 @@ __matbot__ was an exercise I assigned myself as a way to learn to read & edit P
 
 The bot is autonomous and tweets several times per day on subjects limited almost exclusively to web and graphic design. In some ways the bot is satire, half-heartedly marketing itself in the way that web designers tend to do; by aggregating and reposting advice and wisdom culled from other web sources who are, more than likely, doing the same.
 
-![Matbot Logo](https://github.com/discoform/matbot/blob/master/images/logo.jpg "Matbot Logo")
+![Matbot Logo](https://github.com/discoform/matbot/blob/master/images/bot.png "Matbot Logo")
 
 The __matbot__ logo was designed by me to represent the overall harmless nature of the bot.
 
@@ -38,3 +38,9 @@ Pre-planning for this project was minimal. I based the project files off of Tom 
 
 ![fig.3: m5tbot on Facebook](https://github.com/discoform/matbot/blob/master/images/mat-bot-facebook.png "fig.3: m5tbot on Facebook")
 <small>Fig3. - A Facebook page was created for the bot to maximise its online presence and grow its social network.</small>
+
+## Typography
+
+### SPACE MONO
+![matbot font](https://github.com/discoform/matbot/blob/master/images/font-stack.png "matbot font")
+A monospaced typeface seemed like the best choice for this project due to the subject matter (bots). Also, for purposes of repetition and alliteration, mat bot dot net stacks nicely in monospace:
