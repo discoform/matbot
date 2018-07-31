@@ -1,5 +1,0 @@
-html5
-CSS3
-sublime
-heroku
-python
