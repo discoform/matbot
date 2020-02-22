@@ -258,6 +258,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/sass/_fa/sass/_brands.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/sass/_fa/css/_brands.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/sass/_fa/sass/_core.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -280,6 +293,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/sass/_fa/css/_fixed-width.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/sass/_fa/sass/_fontawesome.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/sass/_fa/css/_fontawesome.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -397,32 +423,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/sass/_fa/css/_variables.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"/sass/_fa/sass/brands.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/sass/_fa/css/brands.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"/sass/_fa/sass/fontawesome.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/sass/_fa/css/fontawesome.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
