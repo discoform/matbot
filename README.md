@@ -16,8 +16,7 @@ The __matbot__ logo was designed by me to represent the overall harmless nature 
 ## Design & Development Tools
 
 	-Sublime Text
-	-SASS
-	-Skeleton CSS Framework
+	-SCSS
 	-Codekit 3
 	-Heroku Cloud App Platform
 	-Git
