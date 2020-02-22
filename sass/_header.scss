@@ -1,0 +1,13 @@
+header {
+
+    h1 {
+        letter-spacing: $base-spacing;
+        position: fixed;
+        width: 0;
+        padding: $base-spacing*4;
+        line-height: 2;
+        background-color: transparent;
+        z-index: 2;
+    }
+
+}

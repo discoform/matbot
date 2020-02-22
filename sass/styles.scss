@@ -1,0 +1,13 @@
+$base-spacing: 10px;
+$duration: 30s;
+$dark: rgba(#000, 0.9);
+$light: #fff;
+$brand: orangered;
+
+@import "page-settings";
+@import "header";
+@import "footer";
+@import "main";
+@import "ornaments";
+@import "_fa/sass/fontawesome";
+@import "_fa/sass/brands";

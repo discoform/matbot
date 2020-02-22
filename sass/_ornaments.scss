@@ -1,0 +1,56 @@
+@media (max-width: 549px) {
+    #ornaments {
+        width: 100%;
+        position: relative;
+    }
+}
+
+#ornaments {
+    width: calc(100%/2);
+    height: 100vh;
+    position: fixed;
+
+
+#left {
+    position: absolute;
+    margin: 0 0 0 $base-spacing*4;
+    top: 50%;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 100px;
+}
+
+#right {
+    position: absolute;
+    margin: 20% calc(100% - #{$base-spacing*4}) 0;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 100px;
+}
+
+#center {
+    margin: $base-spacing*20 29%;
+    border: 1px dashed #fff;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+}
+
+#center-2 {
+    position: absolute;
+    margin: 26px 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+#center-3 {
+    position: absolute;
+    margin: 0 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 18px;
+    height: 18px;
+}
+}
