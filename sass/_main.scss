@@ -10,6 +10,7 @@ main {
 
         &:nth-of-type(2){
             background: #fff;
+            padding:$base-spacing*5;
         }
     }
 }
