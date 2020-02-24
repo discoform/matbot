@@ -1,16 +1,36 @@
 main {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+
+    @media (min-width: $tablet) {
+        flex-direction: row;
+        position: relative;
+
+
+    }
 
     section {
         position: relative;
-        height: 100%;
-        width: calc(100%/2);
 
-        &:nth-of-type(2){
-            background: #fff;
-            padding:$base-spacing*5;
+        @media (min-width: $tablet) {
+            width: calc(100%/2);
+            padding: $base-spacing*5 0;
+        }
+
+       
+
+        &:nth-of-type(2) {
+            display: none;
+
+            @media (min-width: $tablet) {
+                display: unset;
+                background: #fff;
+                padding: $base-spacing*5;
+            }
+
         }
     }
 }

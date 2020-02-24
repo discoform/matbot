@@ -5,9 +5,17 @@
 html,
 body {
     margin: 0;
-    background: $dark;
     font-family: 'Space Mono', monospace;
-    color: #fff;
+    color: $light;
+    background: #000;
+    font-size: 100%;
+    line-height: 1;
+
+    @media (min-width: $tablet) {
+        background: $dark;
+
+
+    }
 }
 
 ::-webkit-scrollbar {

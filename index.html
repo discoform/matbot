@@ -20,30 +20,41 @@
     <meta name="twitter:title" content="mat bot dot net">
     <meta name="twitter:description" content="mat bot : personal assistant">
     <meta name="twitter:image" content="images/social-small.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="js/min/draggable-min.js"></script>
+    <script src="js/min/resizable-min.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>mat bot dot net</h1>
+        <h1>matbot zen garden</h1>
+        <small>arrange elements in the left panel and chill</small>
     </header>
     <main>
         <section>
             <div id="ornaments">
-                <div id="left"></div>
-                <div id="right"></div>
-                <div id="center-2"></div>
-                <div id="center"></div>
-                <div id="center-3"></div>
+                <span class="draggable"><img src="images/logo.svg" alt="matbot logo"></span>
+                <span class="draggable">mat</span>
+                <span class="draggable">bot</span>
+                <span class="draggable">dot</span>
+                <span class="draggable">net</span>
+                <div id="left" class="draggable"></div>
+                <div id="right" class="draggable"></div>
+                <div id="left-2" class="draggable"></div>
+                <div id="center-2" class="draggable"></div>
+                <div id="center-3" class="draggable"></div>
+                <div id="center-4" class="draggable"></div>
+                <div id="center-5" class="draggable"></div>
+                <div id="center-6" class="draggable"></div>
+                <div id="center" class="resize-drag"></div>
             </div>
-            <!-- end clear -->
         </section>
-
         <section class="twitter-timeline-container">
             <a class="twitter-timeline" href="https://twitter.com/_matbot" data-chrome="nofooter noborders noheader">
             </a>
         </section>
     </main>
-    <!-- end container -->
     <footer>
         <div class="ticker">
             <a class="ticker__item" rel=”nofollow” target="_blank" href=" https://github.com/discoform/matbot"><i class="fab fa-github" aria-hidden="true"></i> https://github.com/discoform/matbot</a>
@@ -51,4 +62,13 @@
     </footer>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98668795-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-98668795-2');
+    </script>
 </body>

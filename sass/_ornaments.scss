@@ -1,56 +1,242 @@
-@media (max-width: 549px) {
     #ornaments {
         width: 100%;
-        position: relative;
+        position: absolute;
+        height: 80vh ;
+
+        @media (min-width: $tablet) {
+          
+            width: calc(100%/2);
+            position: fixed;
+            height: 90vh;
+
+        }
     }
-}
 
 #ornaments {
-    width: calc(100%/2);
-    height: 100vh;
-    position: fixed;
+
+    >* {
+        z-index: 4;
+
+    }
+
+    #left {
+        position: absolute;
+        border: 2px solid $light;
+        width: 10px;
+        height: 100px;
+        top: 60%;
+        left:30%;
+
+        @media (min-width: $tablet) {
+        
+            top: 60%;
 
 
-#left {
-    position: absolute;
-    margin: 0 0 0 $base-spacing*4;
-    top: 50%;
-    border: 1px solid #fff;
-    width: 10px;
-    height: 100px;
-}
+        }
+    }
 
-#right {
-    position: absolute;
-    margin: 20% calc(100% - #{$base-spacing*4}) 0;
-    border: 1px solid #fff;
-    width: 10px;
-    height: 100px;
-}
+    #left-2 {
+        position: absolute;
+        border: 2px solid $light;
+        width: 100px;
+        height: 10px;
+        bottom: 20%;
+        left: 10%;
 
-#center {
-    margin: $base-spacing*20 29%;
-    border: 1px dashed #fff;
-    width: 16px;
-    height: 16px;
-    background-color: #fff;
-}
+        @media (min-width: $tablet) {
+            top: calc(60% + 90px);
 
-#center-2 {
-    position: absolute;
-    margin: 26px 40%;
-    background-color: #fff;
-    border-radius: 10px;
-    width: 18px;
-    height: 18px;
-}
+        }
+    }
 
-#center-3 {
-    position: absolute;
-    margin: 0 20%;
-    background-color: #fff;
-    border-radius: 10px;
-    width: 18px;
-    height: 18px;
-}
+
+    #right {
+        position: absolute;
+        border: 2px solid $light;
+        width: 10px;
+        height: 100px;
+        top: 190px;
+        left: 30%;
+
+        @media (min-width: $tablet) {
+
+            top: 190px;
+            left: 30%;
+        }
+    }
+
+    #right-2 {
+        position: absolute;
+        border: $base-spacing/5 solid $light;
+        width: $base-spacing*10;
+        height: $base-spacing;
+top: 50%;
+right:5%;
+
+        @media (min-width: $tablet) {
+
+            top: 50%;
+            left:80%;        }
+    }
+
+    #center {
+        position: absolute;
+        border: 11px double $light;
+        width: $base-spacing*2;
+        height: $base-spacing*2;
+        padding: $base-spacing;
+        z-index: 2;
+        top: 50%;
+        left:20%;     
+
+
+        @media (min-width: $tablet) {
+            top: 50%;
+            left:80%;
+
+
+        }
+
+    }
+
+    #center-2 {
+        position: absolute;
+        border: $base-spacing/2 dashed $light;
+        border-radius: 100%;
+        width: $base-spacing*10;
+        height: $base-spacing*10;
+        z-index: 3;
+        top: $base-spacing*40;
+        left:40%;
+
+        @media (min-width: $tablet) {
+            width: $base-spacing*15;
+            height: $base-spacing*15;
+            top: $base-spacing*40;
+            left:50%;
+
+        }
+
+
+    }
+
+    #center-3 {
+        position: absolute;
+        background-color: $light;
+        border-radius: 100px;
+        width: $base-spacing*2;
+        height: $base-spacing*2;
+        top: $base-spacing*20;
+        left:30%;
+
+        @media (min-width: $tablet) {
+            top: $base-spacing*10;
+            left:80%;
+
+        }
+
+    }
+
+    #center-4 {
+        position: absolute;
+        border: $base-spacing/2 double $light;
+        border-radius: $base-spacing*10;
+        width: $base-spacing*6;
+        height: $base-spacing*6;
+        top: 40%;
+        left:40%;
+
+        @media (min-width: $tablet) {
+
+            top: $base-spacing*40;
+            left:20%;
+        }
+
+    }
+
+    #center-5 {
+        position: absolute;
+        background-color: $light;
+        width: $base-spacing*4;
+        height: $base-spacing*4;
+        top: 20%;
+        left:80%;
+
+
+        @media (min-width: $tablet) {
+            top: 40%;
+            left:40%;
+
+
+        }
+
+    }
+
+    #center-6 {
+        position: absolute;
+        background-color: $light;
+        border-radius: $base-spacing*10;
+        width: $base-spacing*3.5;
+        height: $base-spacing*3.5;
+        top: 30%;
+        left:50%;
+
+        @media (min-width: $tablet) {
+
+            top: 30%;
+        left:50%;
+
+        }
+                        
+
+    }
+
+
+    span {
+        display: block;
+        position: absolute;
+        top: 0;
+        font-size: 26px;
+
+        @media (min-width: $tablet) {
+
+            font-size: 36px;
+
+        }
+
+
+        img {
+
+            width: $base-spacing*4;
+        }
+
+        &:nth-of-type(1) {
+            top: 70%;
+            right: $base-spacing*20;
+        }
+
+        &:nth-of-type(2) {
+            top:calc(#{$base-spacing*4} + 50px);
+            left: $base-spacing*2.5;
+
+        }
+
+        &:nth-of-type(3) {
+            top:calc(#{$base-spacing*4} + 100px);
+            left: $base-spacing*2.5;
+
+        }
+
+        &:nth-of-type(4) {
+            top:calc(#{$base-spacing*4} + 150px);
+            left: $base-spacing*2.5;
+
+        }
+
+        &:nth-of-type(5) {
+            top:calc(#{$base-spacing*4} + 200px);
+            left: $base-spacing*2.5;
+
+        }
+    }
 }
