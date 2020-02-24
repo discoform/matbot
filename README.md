@@ -2,50 +2,79 @@
 
 # matbot: a personal twitter bot.<br>not particularly useful, but fun... #
 
+__matbot__ was an exercise I assigned myself as a way to learn to read & edit Python code and deploy my first application using Git and a cloud based hosting platform (Heroku, in this case).
 
-![Matbot Card](https://github.com/discoform/matbot/blob/master/images/social.png "Matbot Card")
+The bot is autonomous and tweets several times per day on subjects limited almost exclusively to web and graphic design.
 
-__matbot__ was an exercise I assigned myself as a way to learn to read & edit Python code and deploy my first application using Git and a cloud based hosting platform.
+In many ways the bot is satire, half-heartedly marketing itself in the way that web designers tend to do; by aggregating and reposting advice and wisdom culled from other web sources who are, more than likely, doing the same.
 
-The bot is autonomous and tweets several times per day on subjects limited almost exclusively to web and graphic design. In some ways the bot is satire, half-heartedly marketing itself in the way that web designers tend to do; by aggregating and reposting advice and wisdom culled from other web sources who are, more than likely, doing the same.
-
-![Matbot Logo](https://github.com/discoform/matbot/blob/master/images/bot.png "Matbot Logo")
-
-The __matbot__ logo was designed by me to represent the overall harmless nature of the bot.
+The initial pre-planning for this project was minimal. I based the twitter bot off of [Tom Meagher's heroku_ebooks repo](https://github.com/tommeagher/heroku_ebooks) (which itself was based off the [@Horse_Ebooks](https://www.theatlantic.com/technology/archive/2013/09/-horse-ebooks-is-the-most-successful-piece-of-cyber-fiction-ever/279946/) project). 
 
 ## Design & Development Tools
 
-	-Sublime Text
-	-SCSS
-	-Codekit 3
-	-Heroku Cloud App Platform
-	-Git
-	-Twitter API
-	-Font Awesome font and CSS toolkit
-	-Adobe Illustrator
+	- Sublime Text/VS Code
+	- SCSS
+	- Codekit 3
+	- Heroku Cloud App Platform (for the twitter bot)
+	- Githib pages (for the website)
+	- Twitter API
+	- Font Awesome
+	- Adobe Illustrator (for the logo)
+	- interact.js
+	- IFTTT
+
+# Design Concepts
+
+![Matbot Card](https://matbot.net/images/social.png "Matbot Card")
+<small>Fig1. - Basic moodboard while planning the __matbot__ concept.</small>
+
+## matbot Logo
+
+![Matbot Logo](https://matbot.net/images/bot.png "Matbot Logo")
+<small>Fig2. - The __matbot__ logo</small>
+
+ The __matbot__ logo was designed by me in Adobe Illustrator to represent the overall harmless nature of the bot.
+
+## Typography: Space Mono
+
+![matbot font](https://matbot.net/images/font-stack.png "matbot font")
+
+<small>Fig3. - Space Mono typeface</small>
+
+A monospaced typeface seemed like the best choice for this project due to the subject matter (bots). Also, for purposes of repetition and alliteration, mat bot dot net stacks nicely in monospace.
+
+# The homepage
+
+Presentation of the bot outside of Twitter was a last minute decision, with the first website coded in Sublime without a layout plan in mind other than to emphasize the tweets and link to additional social media accounts:
+
+![mat bot dot net intial example](https://matbot.net/images/mat-bot-home.png "mat bot dot net")
+<small>Fig4. - The first __matbot__ homepage</small>
+
+The first __matbot__ homepage emphasizes the Twitter feed and provides links to additional social media accounts. Vague, primitive graphics suggest an early video game.
+
+As time went on the project left my mind, escept for a few occasional check-ins, but during the process of moving all my domains and hosting packages I decided the bot's website could use some sprucing up.
 
 
-## Sketches and Wireframes
+![mat bot dot net updated](https://matbot.net/images/mat-bot-home-2.png "mat bot dot net")
+<small>Fig5. - The updated __matbot__ homepage</small>
 
-Pre-planning for this project was minimal. I based the project files off of Tom Meagher's GitHub repository (which itself was based off the horse e-books project), but presentation of the bot outside of Twitter was a last minute decision, coded in Sublime with no real layout plan in mind other than to emphasize the tweets and link to additional social media accounts.
+The updated __matbot__ homepage is interactive (interactivity of the site is made possible by the [interact.js](https://interactjs.io/) library), and attempts to create a Zen Garden experience.
 
-![fig.1: mat bot dot net](https://github.com/discoform/matbot/blob/master/images/mat-bot-home.png "fig.1: mat bot dot net")
-<small>Fig1. - The matbot homepage emphasizes the Twitter feed and provides links to additional social media accounts. Vague, primitive graphics suggest an early video game.</small>
+Simple ornaments can be re-positioned to form simple, peaceful arrangements.
 
-![fig.2: matbot on Twitter](https://github.com/discoform/matbot/blob/master/images/mat-bot-twitter.png "fig.2: matbot on Twitter")
-<small>Fig2. - @_matbot tweets automatically, 3–5 times each day, plus a reminder of the current date every afternoon at 2:30pm, eastern US time.</small>
+![mat bot dot net updated](https://matbot.net/images/mat-bot-home-3.png "mat bot dot net")
+<small>Fig6. - An arrangment of ornaments on the new, interactive __matbot__ website.</small>
 
-![fig.3: m5tbot on Facebook](https://github.com/discoform/matbot/blob/master/images/mat-bot-facebook.png "fig.3: m5tbot on Facebook")
-<small>Fig3. - A Facebook page was created for the bot to maximise its online presence and grow its social network.</small>
+## The Twitter Account
 
-## Typography: SPACE MONO
-![matbot font](https://github.com/discoform/matbot/blob/master/images/font-stack.png "matbot font")
-<p>A monospaced typeface seemed like the best choice for this project due to the subject matter (bots). Also, for purposes of repetition and alliteration, mat bot dot net stacks nicely in monospace.</p>
+To date, the [@_matbot twitter account](https://twitter.com/_matbot) has tweeted over 11,000 times. I no longer have the credentials to change any of the settings of the app, so it will continue as long as Twitter exists (or until it gets shutdown for being a bot)
 
-## Color Palette
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Whimsical Animated GIFsof The Doodler -impressive</p>&mdash; matbot (@_matbot) <a href="https://twitter.com/_matbot/status/859062837548896257">May 1, 2017</a></blockquote>
+![matbot on Twitter](https://matbot.net/images/mat-bot-twitter-2.png "matbot on Twitter")
+<small>Fig7. - @_matbot tweets automatically, 3–7 times each day, plus a reminder of the current date every afternoon at 2:30pm, eastern US time. </small>
 
-![matbot colors](https://github.com/discoform/matbot/blob/master/images/color.png "matbot colors")
+## The Facebook Account
 
-The __matbot__ website serves almost no purpose except to provide a hub for the project extensions to various social media accounts, so an elaborate color scheme would have taken more effort than the usefulness of the page really required. The addition of the orange bar at the bottom of the page was simply to evoke a sense of closure. The color choice was practically arbitrary, based entirely on personal taste and a habit of adding an element of orange to nearly all of my student projects in school.
+There is a __matbot__ Facebook page that also posts multiple times per day. The facebook posts mirror matbot's tweets, triggered by an [IFTTT Applet](https://ifttt.com/)
 
+![m5tbot on Facebook](https://matbot.net/images/mat-bot-facebook.png "m5tbot on Facebook")
+<small>Fig8. - A Facebook page was created for the bot to maximise its online presence and grow its social network.</small>
