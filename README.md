@@ -30,7 +30,7 @@ The initial pre-planning for this project was minimal. I based the twitter bot o
 
 ## matbot Logo
 
-![Matbot Logo](https://matbot.net/images/bot.png "Matbot Logo")
+![Matbot Logo](https://matbot.net/images/bot.png "Matbot Logo" )
 <small>Fig2. - The __matbot__ logo</small>
 
  The __matbot__ logo was designed by me in Adobe Illustrator to represent the overall harmless nature of the bot.
