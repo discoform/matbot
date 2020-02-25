@@ -13,7 +13,7 @@
     <meta name="robots" content="index,follow,noodp">
     <meta name="googlebot" content="index,follow">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" link rel="preload" as="style">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@_matbot">
     <meta name="twitter:url" content="https://matbot.net/">
@@ -22,11 +22,11 @@
     <meta name="twitter:image" content="images/social-small.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-    <script src="js/min/draggable-min.js"></script>
-    <script src="js/min/resizable-min.js"></script>
+    <script src="js/min/draggable-min.js" async></script>
+    <script src="js/min/resizable-min.js" async></script>
 </head>
 
-<body>
+<body class="animated fadeIn">
     <header>
         <h1>matbot zen garden</h1>
         <small>arrange your ornaments and chill</small>
@@ -57,7 +57,7 @@
     </main>
     <footer>
         <div class="ticker">
-            <a class="ticker__item" rel=”nofollow” target="_blank" href=" https://github.com/discoform/matbot"><i class="fab fa-github" aria-hidden="true"></i> https://github.com/discoform/matbot</a>
+            <a class="ticker__item" rel=”nofollow” rel="noreferrer" target="_blank" href="https://github.com/discoform/matbot"><i class="fab fa-github" aria-hidden="true"></i> https://github.com/discoform/matbot</a>
         </div>
     </footer>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
