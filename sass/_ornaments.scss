@@ -18,6 +18,10 @@
         z-index: 4;
 
     }
+    .draggable, .resize-drag {
+        touch-action: none;
+        user-select: none;
+      }
 
     #left {
         position: absolute;

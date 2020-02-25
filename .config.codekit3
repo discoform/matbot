@@ -43,6 +43,17 @@
 		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
+	"/images/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4837,
+		"oA": 0,
+		"oAP": "/images/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
 	"/images/bot-sans.png": {
 		"ft": 32768,
 		"iS": 13800,
@@ -92,6 +103,28 @@
 		"iS": 7067,
 		"oA": 0,
 		"oAP": "/images/font-stack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"/images/icons-192.png": {
+		"ft": 32768,
+		"iS": 4991,
+		"oA": 0,
+		"oAP": "/images/icons-192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"/images/icons-512.png": {
+		"ft": 32768,
+		"iS": 11455,
+		"oA": 0,
+		"oAP": "/images/icons-512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -299,6 +332,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -921,7 +962,7 @@
 	"creationDate": 505281583,
 	"displayValue": "matbot",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron",
+	"iconImageName": "/images/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
