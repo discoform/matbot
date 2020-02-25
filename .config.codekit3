@@ -827,130 +827,170 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"/webfonts/fa-brands-400.eot": {
+	"/webfonts/font_awesome/fa-brands-400.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-brands-400.eot",
+		"oAP": "/webfonts/font_awesome/fa-brands-400.eot",
 		"oF": 0
 		},
-	"/webfonts/fa-brands-400.svg": {
+	"/webfonts/font_awesome/fa-brands-400.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-brands-400.svg",
+		"oAP": "/webfonts/font_awesome/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/webfonts/fa-brands-400.ttf": {
+	"/webfonts/font_awesome/fa-brands-400.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-brands-400.ttf",
+		"oAP": "/webfonts/font_awesome/fa-brands-400.ttf",
 		"oF": 0
 		},
-	"/webfonts/fa-brands-400.woff": {
+	"/webfonts/font_awesome/fa-brands-400.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-brands-400.woff",
+		"oAP": "/webfonts/font_awesome/fa-brands-400.woff",
 		"oF": 0
 		},
-	"/webfonts/fa-brands-400.woff2": {
+	"/webfonts/font_awesome/fa-brands-400.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-brands-400.woff2",
+		"oAP": "/webfonts/font_awesome/fa-brands-400.woff2",
 		"oF": 0
 		},
-	"/webfonts/fa-regular-400.eot": {
+	"/webfonts/font_awesome/fa-regular-400.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-regular-400.eot",
+		"oAP": "/webfonts/font_awesome/fa-regular-400.eot",
 		"oF": 0
 		},
-	"/webfonts/fa-regular-400.svg": {
+	"/webfonts/font_awesome/fa-regular-400.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-regular-400.svg",
+		"oAP": "/webfonts/font_awesome/fa-regular-400.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/webfonts/fa-regular-400.ttf": {
+	"/webfonts/font_awesome/fa-regular-400.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-regular-400.ttf",
+		"oAP": "/webfonts/font_awesome/fa-regular-400.ttf",
 		"oF": 0
 		},
-	"/webfonts/fa-regular-400.woff": {
+	"/webfonts/font_awesome/fa-regular-400.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-regular-400.woff",
+		"oAP": "/webfonts/font_awesome/fa-regular-400.woff",
 		"oF": 0
 		},
-	"/webfonts/fa-regular-400.woff2": {
+	"/webfonts/font_awesome/fa-regular-400.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-regular-400.woff2",
+		"oAP": "/webfonts/font_awesome/fa-regular-400.woff2",
 		"oF": 0
 		},
-	"/webfonts/fa-solid-900.eot": {
+	"/webfonts/font_awesome/fa-solid-900.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-solid-900.eot",
+		"oAP": "/webfonts/font_awesome/fa-solid-900.eot",
 		"oF": 0
 		},
-	"/webfonts/fa-solid-900.svg": {
+	"/webfonts/font_awesome/fa-solid-900.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-solid-900.svg",
+		"oAP": "/webfonts/font_awesome/fa-solid-900.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/webfonts/fa-solid-900.ttf": {
+	"/webfonts/font_awesome/fa-solid-900.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-solid-900.ttf",
+		"oAP": "/webfonts/font_awesome/fa-solid-900.ttf",
 		"oF": 0
 		},
-	"/webfonts/fa-solid-900.woff": {
+	"/webfonts/font_awesome/fa-solid-900.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-solid-900.woff",
+		"oAP": "/webfonts/font_awesome/fa-solid-900.woff",
 		"oF": 0
 		},
-	"/webfonts/fa-solid-900.woff2": {
+	"/webfonts/font_awesome/fa-solid-900.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/webfonts/fa-solid-900.woff2",
+		"oAP": "/webfonts/font_awesome/fa-solid-900.woff2",
+		"oF": 0
+		},
+	"/webfonts/Space_Mono/OFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/webfonts/Space_Mono/OFL.txt",
+		"oF": 0
+		},
+	"/webfonts/Space_Mono/SpaceMono-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/webfonts/Space_Mono/SpaceMono-Bold.ttf",
+		"oF": 0
+		},
+	"/webfonts/Space_Mono/SpaceMono-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/webfonts/Space_Mono/SpaceMono-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/webfonts/Space_Mono/SpaceMono-Italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/webfonts/Space_Mono/SpaceMono-Italic.ttf",
+		"oF": 0
+		},
+	"/webfonts/Space_Mono/SpaceMono-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/webfonts/Space_Mono/SpaceMono-Regular.ttf",
 		"oF": 0
 		}
 	},
