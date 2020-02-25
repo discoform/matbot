@@ -308,6 +308,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/README.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -326,6 +334,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sass/_animate.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/css/_animate.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"/sass/_fa/sass/_animated.scss": {
 		"aP": 1,

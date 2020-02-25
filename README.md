@@ -16,7 +16,7 @@ The initial pre-planning for this project was minimal. I based the twitter bot o
 	- SCSS
 	- Codekit 3
 	- Heroku Cloud App Platform (for the twitter bot)
-	- Githib pages (for the website)
+	- Github pages (for the website)
 	- Twitter API
 	- Font Awesome
 	- Adobe Illustrator (for the logo)
