@@ -115,8 +115,8 @@
 		"oA": 0,
 		"oAP": "/images/icons-192.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 80
 		},
@@ -126,8 +126,8 @@
 		"oA": 0,
 		"oAP": "/images/icons-512.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 80
 		},
@@ -337,14 +337,6 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -748,6 +740,19 @@
 		"oA": 2,
 		"oAP": "/sass/_fa/webfonts/fa-solid-900.woff2",
 		"oF": 0
+		},
+	"/sass/_fonts.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/css/_fonts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"/sass/_footer.scss": {
 		"aP": 1,
