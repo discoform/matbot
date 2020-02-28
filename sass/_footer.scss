@@ -21,7 +21,6 @@
 }
 
 footer {
-    height: $base-spacing*5;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -29,7 +28,11 @@ footer {
     background-color: $dark;
     padding-left: 100%;
     box-sizing: content-box;
-    height: $base-spacing*4;
+    height: $base-spacing*5;
+
+    @media (min-width: $tablet) {
+        height: $base-spacing*4;
+    }
 
 
 
