@@ -54,33 +54,11 @@
 		"oT": 1,
 		"q": 80
 		},
-	"/images/bot-sans.png": {
-		"ft": 32768,
-		"iS": 13800,
-		"oA": 0,
-		"oAP": "/images/bot-sans.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 80
-		},
 	"/images/bot.png": {
 		"ft": 32768,
 		"iS": 17751,
 		"oA": 0,
 		"oAP": "/images/bot.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 80
-		},
-	"/images/color.png": {
-		"ft": 32768,
-		"iS": 6512,
-		"oA": 0,
-		"oAP": "/images/color.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -131,12 +109,12 @@
 		"oT": 1,
 		"q": 80
 		},
-	"/images/llogo.ai": {
+	"/images/logo.ai": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/images/llogo.ai",
+		"oAP": "/images/logo.ai",
 		"oF": 0
 		},
 	"/images/logo.svg": {
@@ -258,28 +236,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 80
-		},
-	"/images/social_small.jpg": {
-		"ft": 16384,
-		"iS": 197304,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/social_small.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 78
-		},
-	"/images/social_small_covert.jpg": {
-		"ft": 16384,
-		"iS": 59647,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/social_small_covert.jpg",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 78
 		},
 	"/index.html": {
 		"cB": 0,
