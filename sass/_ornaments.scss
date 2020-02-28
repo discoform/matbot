@@ -1,246 +1,264 @@
     #ornaments {
         width: 100%;
         position: absolute;
-        height: 80vh ;
+        height:90vh;
 
         @media (min-width: $tablet) {
-          
+
             width: calc(100%/2);
             position: fixed;
-            height: 90vh;
-
+            height: 100vh;
         }
     }
 
-#ornaments {
+    #ornaments {
 
-    >* {
-        z-index: 4;
-
-    }
-    .draggable, .resize-drag {
-        touch-action: none;
-        user-select: none;
-      }
-
-    #left {
-        position: absolute;
-        border: 2px solid $light;
-        width: 10px;
-        height: 100px;
-        top: 60%;
-        left:30%;
-
-        @media (min-width: $tablet) {
-        
-            top: 60%;
-
-
-        }
-    }
-
-    #left-2 {
-        position: absolute;
-        border: 2px solid $light;
-        width: 100px;
-        height: 10px;
-        bottom: 20%;
-        left: 10%;
-
-        @media (min-width: $tablet) {
-            top: calc(60% + 90px);
-
-        }
-    }
-
-
-    #right {
-        position: absolute;
-        border: 2px solid $light;
-        width: 10px;
-        height: 100px;
-        top: 190px;
-        left: 30%;
-
-        @media (min-width: $tablet) {
-
-            top: 190px;
-            left: 30%;
-        }
-    }
-
-    #right-2 {
-        position: absolute;
-        border: $base-spacing/5 solid $light;
-        width: $base-spacing*10;
-        height: $base-spacing;
-top: 50%;
-right:5%;
-
-        @media (min-width: $tablet) {
-
-            top: 50%;
-            left:80%;        }
-    }
-
-    #center {
-        position: absolute;
-        border: 11px double $light;
-        width: $base-spacing*2;
-        height: $base-spacing*2;
-        padding: $base-spacing;
-        z-index: 2;
-        top: 50%;
-        left:20%;     
-
-
-        @media (min-width: $tablet) {
-            top: 50%;
-            left:80%;
-
+        >* {
+            z-index: 4;
 
         }
 
-    }
-
-    #center-2 {
-        position: absolute;
-        border: $base-spacing/2 dashed $light;
-        border-radius: 100%;
-        width: $base-spacing*10;
-        height: $base-spacing*10;
-        z-index: 3;
-        top: $base-spacing*40;
-        left:40%;
-
-        @media (min-width: $tablet) {
-            width: $base-spacing*15;
-            height: $base-spacing*15;
-            top: $base-spacing*40;
-            left:50%;
-
+        .draggable,
+        .resize-drag {
+            touch-action: none;
+            user-select: none;
         }
 
+        #left {
+            position: absolute;
+            border: 2px solid $light;
+            width: $base-spacing*1.5;
+            height: $base-spacing*10;
+            top: 25%;
+            left: 40%;
 
-    }
-
-    #center-3 {
-        position: absolute;
-        background-color: $light;
-        border-radius: 100px;
-        width: $base-spacing*2;
-        height: $base-spacing*2;
-        top: $base-spacing*20;
-        left:30%;
-
-        @media (min-width: $tablet) {
-            top: $base-spacing*10;
-            left:80%;
-
+            @media (min-width: $tablet) {
+                width: $base-spacing*1.25;
+                height: $base-spacing*12.5;
+                top: 60%;
+                left: 40%;
+            }
         }
 
-    }
+        #left-2 {
+            position: absolute;
+            border: 2px solid $light;
+            width: $base-spacing*10;
+            height: $base-spacing*1.5;
+            bottom: 30%;
+            left: 10%;
 
-    #center-4 {
-        position: absolute;
-        border: $base-spacing/2 double $light;
-        border-radius: $base-spacing*10;
-        width: $base-spacing*6;
-        height: $base-spacing*6;
-        top: 40%;
-        left:40%;
+            @media (min-width: $tablet) {
+                bottom: 20%;
+                width: $base-spacing*12.5;
+                height: $base-spacing*1.25;
 
-        @media (min-width: $tablet) {
-
-            top: $base-spacing*40;
-            left:20%;
+            }
         }
 
-    }
-
-    #center-5 {
-        position: absolute;
-        background-color: $light;
-        width: $base-spacing*4;
-        height: $base-spacing*4;
-        top: 20%;
-        left:80%;
-
-
-        @media (min-width: $tablet) {
-            top: 40%;
-            left:40%;
-
-
-        }
-
-    }
-
-    #center-6 {
-        position: absolute;
-        background-color: $light;
-        border-radius: $base-spacing*10;
-        width: $base-spacing*3.5;
-        height: $base-spacing*3.5;
-        top: 30%;
-        left:50%;
-
-        @media (min-width: $tablet) {
-
+        #right {
+            position: absolute;
+            border: 2px solid $light;
+            width: $base-spacing*1.5;
+            height: $base-spacing*10;
             top: 30%;
-        left:50%;
+            left: 30%;
 
-        }
-                        
-
-    }
-
-
-    span {
-        display: block;
-        position: absolute;
-        top: 0;
-        font-size: 26px;
-
-        @media (min-width: $tablet) {
-
-            font-size: 36px;
-
+            @media (min-width: $tablet) {
+                width: $base-spacing*1.25;
+                height: $base-spacing*12.5;
+                top: 20%;
+                left: 30%;
+            }
         }
 
+        // #right-2 {
+        //     position: absolute;
+        //     border: $base-spacing/5 solid $light;
+        //     width: $base-spacing*1.5;
+        //     height: $base-spacing*10;
+        //     top: 50%;
+        //     right: 5%;
 
-        img {
+        //     @media (min-width: $tablet) {
+        //         width: $base-spacing*1.25;
+        //         height: $base-spacing*12.5;
+        //         top: 50%;
+        //         left: 80%;
+        //     }
+        // }
 
+        #center {
+            position: absolute;
+            border: 11px double $light;
+            width: $base-spacing*2;
+            height: $base-spacing*2;
+            padding: $base-spacing;
+            z-index: 2;
+            top: 50%;
+            right:10%;     
+    
+    
+            @media (min-width: $tablet) {
+                top: 50%;
+                left:80%;
+    
+    
+            }
+    
+        }
+
+        #center-2 {
+            position: absolute;
+            border: $base-spacing/2 dashed $light;
+            border-radius: 100%;
+            width: $base-spacing*10;
+            height: $base-spacing*10;
+            z-index: 3;
+            bottom: 15%;
+            right: 5%;
+
+            @media (min-width: $tablet) {
+                width: $base-spacing*15;
+                height: $base-spacing*15;
+                bottom: 20%;
+                right: 5%;
+
+            }
+        }
+
+        #center-3 {
+            position: absolute;
+            background-color: $light;
+            border-radius: 100px;
+            width: $base-spacing*2;
+            height: $base-spacing*2;
+            bottom: 35%;
+            left: 75%;
+
+            @media (min-width: $tablet) {
+                top: 15%;
+                left: 80%;
+
+            }
+        }
+
+        #center-4 {
+            position: absolute;
+            border: $base-spacing/2 double $light;
+            border-radius: $base-spacing*10;
+            width: $base-spacing*6;
+            height: $base-spacing*6;
+            bottom: 15%;
+            left: 20%;
+
+            @media (min-width: $tablet) {
+                top: 50%;
+                left: 10%;
+            }
+        }
+
+        #center-5 {
+            position: absolute;
+            background-color: $light;
             width: $base-spacing*4;
+            height: $base-spacing*4;
+            top: 25%;
+            left: 70%;
+
+            @media (min-width: $tablet) {
+                top: 40%;
+                left: 40%;
+            }
         }
 
-        &:nth-of-type(1) {
-            top: 70%;
-            right: $base-spacing*20;
+        #center-6 {
+            position: absolute;
+            background-color: $light;
+            border-radius: $base-spacing*10;
+            width: $base-spacing*3.5;
+            height: $base-spacing*3.5;
+            top: 40%;
+            left: 55%;
+
+            @media (min-width: $tablet) {
+
+                top: 30%;
+
+            }
         }
 
-        &:nth-of-type(2) {
-            top:calc(#{$base-spacing*4} + 50px);
-            left: $base-spacing*2.5;
+        span {
+            position: absolute;
+            font-size: 25px;
 
-        }
+            @media (min-width: $tablet) {
+                font-size: 36px;
+            }
 
-        &:nth-of-type(3) {
-            top:calc(#{$base-spacing*4} + 100px);
-            left: $base-spacing*2.5;
+            img {
 
-        }
+                width: $base-spacing*3;
 
-        &:nth-of-type(4) {
-            top:calc(#{$base-spacing*4} + 150px);
-            left: $base-spacing*2.5;
+                @media (min-width: $tablet) {
+                    width: $base-spacing*4;
 
-        }
+                }
+            }
 
-        &:nth-of-type(5) {
-            top:calc(#{$base-spacing*4} + 200px);
-            left: $base-spacing*2.5;
+            &:nth-of-type(1) {
+                top: 60%;
+                left: 45%;
 
+                @media (min-width: $tablet) {
+                    top: 50%;
+                    left: 50%;
+
+                }
+            }
+
+            &:nth-of-type(2) {
+                top:calc(#{$base-spacing*4} + 100px);
+                left: $base-spacing*2.5;
+
+                @media (min-width: $tablet) {
+                    top:calc(#{$base-spacing*4} + 50px);
+                    left: $base-spacing*2.5;
+                }
+
+            }
+
+            &:nth-of-type(3) {
+                top:calc(#{$base-spacing*4} + 150px);
+                left: $base-spacing*2.5;
+
+                @media (min-width: $tablet) {
+                    top:calc(#{$base-spacing*4} + 100px);
+                    left: $base-spacing*2.5;
+                }
+
+            }
+
+            &:nth-of-type(4) {
+                top:calc(#{$base-spacing*4} + 200px);
+                left: $base-spacing*2.5;
+
+                @media (min-width: $tablet) {
+                    top:calc(#{$base-spacing*4} + 150px);
+                    left: $base-spacing*2.5;
+                }
+
+            }
+
+            &:nth-of-type(5) {
+                top:calc(#{$base-spacing*4} + 250px);
+                left: $base-spacing*2.5;
+
+                @media (min-width: $tablet) {
+                    top:calc(#{$base-spacing*4} + 200px);
+                    left: $base-spacing*2.5;
+                }
+
+            }
         }
     }
-}
