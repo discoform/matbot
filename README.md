@@ -1,14 +1,12 @@
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I Built ABot</p>&mdash; matbot (@_matbot) <a href="https://twitter.com/_matbot/status/858403271345672192">April 29, 2017</a></blockquote>
 
-# matbot: a personal twitter bot. Not particularly useful. #
+# matbot: a personal twitter bot. #
 
 ![Matbot Logo](https://matbot.net/images/icons-512.png "Matbot Logo" )
 
 __matbot__ was an exercise I assigned myself as a way to learn to read & edit Python code and deploy my first application using Git and a cloud based hosting platform (Heroku, in this case).
 
 The bot is autonomous and tweets several times per day on subjects limited almost exclusively to web and graphic design.
-
-In many ways the bot is satire, half-heartedly marketing itself in the way that web designers tend to do; by aggregating and reposting advice and wisdom culled from other web sources who are, more than likely, doing the same.
 
 I based the twitter bot off of [Tom Meagher's heroku_ebooks repo](https://github.com/tommeagher/heroku_ebooks) (which itself was based off the [@Horse_Ebooks](https://www.theatlantic.com/technology/archive/2013/09/-horse-ebooks-is-the-most-successful-piece-of-cyber-fiction-ever/279946/) project). 
 
